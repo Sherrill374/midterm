@@ -6,6 +6,40 @@ body {
   background-color: #f2f2f2;
 }
 
+/* ===== Navigation Menu ===== */
+nav{
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+nav ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content:center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  background-color: #333;
+  padding: 12px 20px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}
+
+  
 /* ===== Main Content Area ===== */
 main {
   max-width: 960px;
@@ -25,32 +59,9 @@ section:hover {
   transform: scale(1.02);
 }
 
-/* ===== Navigation Menu ===== */
-nav ul {
-  display: flex;
-  justify-content: center;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
 
-nav li {
-  margin: 0 15px;
-}
 
-nav a {
-  display: block;
-  text-decoration: none;
-  color: white;
-  background-color: #333;
-  padding: 12px 20px;
-  border-radius: 4px;
-  transition: background-color 0.3s ease;
-}
 
-nav a:hover {
-  background-color: #555;
-}
 
 /* ===== Product Table ===== */
 #products table {
